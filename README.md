@@ -7,7 +7,7 @@ Usage
 ---------------
 
 ```go
-import linuxproc "github.com/c9s/goprocinfo/linux"
+import linuxproc "github.com/joaomc/goprocinfo/linux"
 
 stat, err := linuxproc.ReadStat("/proc/stat")
 if err != nil {
